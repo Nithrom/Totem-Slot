@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "totemslot",
+	"version": "${version}",
+	"name": "Totem Slot",
+	"description": "Un hueco extra (tecla C) para tótems de la inmortalidad. Se usan al morir si no llevas uno en la mano.",
+	"authors": [
+		"CereWare"
+	],
+	"license": "LGPL-3.0-only",
+	"icon": "assets/totemslot/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cereware.totemslot.TotemSlot"
+		]
+	},
+	"mixins": [
+		"totemslot.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"cerewareslots": ">=1.0.0"
+	}
+}
