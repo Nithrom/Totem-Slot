@@ -26,7 +26,7 @@ Shares the Relics screen with [Beacons Reforged](https://github.com/Nithrom/beac
 
 ## Building
 This mod depends on [Relic Slots](https://github.com/Nithrom/Relic-Slots), which is bundled into the jar.
-Clone it next to this repo, in a folder named `CereWare Slots`, then run:
+Clone it next to this repo, in a folder named `CereWare Slots`, then run: ./gradlew build
 Requires JDK 25.
 
 ## License
