@@ -18,6 +18,6 @@ public class TotemSlot implements ModInitializer {
 		TotemSlotConfig.load();
 		CerewareSlotsApi.register(new SlotDefinition(SLOT, Component.translatable("slot.totemslot.totem"),
 			Items.TOTEM_OF_UNDYING, stack -> stack.has(DataComponents.DEATH_PROTECTION), 0, 30,
-			() -> TotemSlotConfig.get().keepTotemsOnDeath, Identifier.fromNamespaceAndPath("totemslot", "slot/totem")));
+			() -> TotemSlotConfig.get().keepTotemsOnDeath));
 	}
 }
